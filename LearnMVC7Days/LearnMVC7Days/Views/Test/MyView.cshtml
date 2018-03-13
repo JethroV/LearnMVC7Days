@@ -1,4 +1,5 @@
-﻿@model LearnMVC7Days.Models.Employee
+﻿@using LearnMVC7Days.ViewModel
+@model EmployeeViewModel
 
 @{
     Layout = null;
@@ -10,25 +11,14 @@
     <title>MyView</title>
 </head>
 <body>
-    Welcome to MVC 5 Step by Step learning
-
+    Hello @Model.UserName
+    <hr />
     <div>
-        <b>Employee Details </b><br />
-        Employee Name : @Model.FirstName @Model.LastName <br/>
-
-        @if (Model.Salary > 15000)
-        {
-            <span style="background-color:yellow">
-                Employee Salary: @Model.Salary.ToString("C")
-            </span>
-        }
-        else
-        {
-            <span style="background-color:green">
-
-                Employee Salary: @Model.Salary.ToString("C")
-            </span>
-        }
+        <b>Employee Details</b><br />
+        Employee Name : @Model.EmployeeName <br />
+        <span style="background-color:@Model.SalaryColor">
+            Employee Salary: @Model.Salary
+        </span>
     </div>
 </body>
 </html>
