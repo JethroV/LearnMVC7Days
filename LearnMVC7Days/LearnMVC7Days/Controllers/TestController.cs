@@ -22,7 +22,8 @@ namespace LearnMVC7Days.Controllers
             emp.LastName = "Marla";
             emp.Salary = 20000;
 
-            ViewData["Employee"] = emp;
+            //ViewData["Employee"] = emp;
+            ViewBag.Employee = emp;
             return View("MyView");
         }
     }
