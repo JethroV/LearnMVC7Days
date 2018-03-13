@@ -51,3 +51,7 @@ D:\Development\Exigo\Github\Repository\LearnMVC7Days\LearnMVC7Days\LearnMVC7Days
 D:\Development\Exigo\Github\Repository\LearnMVC7Days\LearnMVC7Days\LearnMVC7Days\obj\Debug\LearnMVC7Days.csprojResolveAssemblyReference.cache
 D:\Development\Exigo\Github\Repository\LearnMVC7Days\LearnMVC7Days\LearnMVC7Days\obj\Debug\LearnMVC7Days.dll
 D:\Development\Exigo\Github\Repository\LearnMVC7Days\LearnMVC7Days\LearnMVC7Days\obj\Debug\LearnMVC7Days.pdb
+D:\Development\Exigo\Github\Repository\LearnMVC7Days\LearnMVC7Days\LearnMVC7Days\bin\EntityFramework.dll
+D:\Development\Exigo\Github\Repository\LearnMVC7Days\LearnMVC7Days\LearnMVC7Days\bin\EntityFramework.SqlServer.dll
+D:\Development\Exigo\Github\Repository\LearnMVC7Days\LearnMVC7Days\LearnMVC7Days\bin\EntityFramework.xml
+D:\Development\Exigo\Github\Repository\LearnMVC7Days\LearnMVC7Days\LearnMVC7Days\bin\EntityFramework.SqlServer.xml
