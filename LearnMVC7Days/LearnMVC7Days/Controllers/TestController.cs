@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using LearnMVC7Days.Models;
+
 namespace LearnMVC7Days.Controllers
 {
     public class TestController : Controller
@@ -15,6 +17,12 @@ namespace LearnMVC7Days.Controllers
 
         public ActionResult GetView()
         {
+            Employee emp = new Employee();
+            emp.FirstName = "Sukesh";
+            emp.LastName = "Marla";
+            emp.Salary = 20000;
+
+            ViewData["Employee"] = emp;
             return View("MyView");
         }
     }

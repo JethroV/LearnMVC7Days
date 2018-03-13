@@ -9,5 +9,16 @@
 </head>
 <body>
     Welcome to MVC 5 Step by Step learning
+
+    <div>
+        @{
+            LearnMVC7Days.Models.Employee emp = (LearnMVC7Days.Models.Employee)
+                ViewData["Employee"];
+        }
+
+        <b>Employee Details </b><br />
+        Employee Name : @emp.FirstName@emp.LastName <br />
+        Employee Salary: @emp.Salary.ToString("C")
+    </div>
 </body>
 </html>
