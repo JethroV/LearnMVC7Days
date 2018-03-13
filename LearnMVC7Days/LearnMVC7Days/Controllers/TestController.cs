@@ -12,5 +12,10 @@ namespace LearnMVC7Days.Controllers
         {
             return "Hello World is old now. It’s time for wassup bro ;)";
         }
+
+        public ActionResult GetView()
+        {
+            return View("MyView");
+        }
     }
 }
